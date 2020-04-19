@@ -1,0 +1,12 @@
+.link {
+  padding: 0 16px 0 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #5CDBD3 !important;
+}
+
+.active {
+  color: #ffffff !important;
+  font-weight: 500;
+  background: #13C2C2;
+}

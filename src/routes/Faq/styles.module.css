@@ -1,0 +1,22 @@
+.title {
+  font-size: 36px;
+  margin-bottom: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.faq div:first-child {
+  border-top-width: 2px;
+}
+
+.wrapper {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 42px 66px 96px 68px !important;
+  background: #00181d;
+}

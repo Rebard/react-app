@@ -1,0 +1,36 @@
+.dropdownItem {
+  border: 0 solid #006D75;
+  border-bottom-width: 2px;
+  color: #ffffff;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 26px 24px 18px 0;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 36px;
+  max-width: 50%;
+  overflow-wrap: break-word;
+  color: #ffffff;
+}
+
+.arrow svg {
+  font-size: 24px;
+}
+
+.arrow svg path {
+  fill: #13C2C2;
+}
+
+.content {
+  font-size: 16px;
+  opacity: .8;
+  margin: 25px 18px 36px 0;
+}

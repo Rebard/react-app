@@ -1,8 +1,12 @@
+//polyfills
+import 'babel-polyfill';
+import 'unfetch/polyfill';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ApolloClient, HttpLink, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { createBrowserHistory } from "history";
+import { createBrowserHistory } from 'history';
 import App from 'containers/App';
 import './index.css';
 import './globalStyles.css';
